@@ -8,9 +8,9 @@
    | Nome | Usuário no GitHub |
    |---|---|
    | Maria Eduarda Lourenço | @dudamaiaaa |
-   | Duda Domingos | @usuario-duda-d |
-   | Any | @usuario-any |
-   | Duda Melo | @usuario-duda-m |
+   | Maria Eduarda Domingos | @usuario-duda-d |
+   | Any Kezia | @usuario-any |
+   | Maria Eduarda Melo | @usuario-duda-m |
 
    ## 💡 Sobre o projeto
 
@@ -21,4 +21,3 @@
    ## 🚀 Como usar
 
    Abra o arquivo `index.html` em qualquer navegador.
-   
