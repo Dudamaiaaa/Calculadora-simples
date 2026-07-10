@@ -8,9 +8,9 @@
    | Nome | Usuário no GitHub |
    |---|---|
    | Maria Eduarda Lourenço | @dudamaiaaa |
-   | Maria Eduarda Domingos | @usuario-duda-d |
-   | Any Kezia | @usuario-any |
-   | Maria Eduarda Melo | @usuario-duda-m |
+   | Maria Eduarda Domingos | @dudinhadomingos08|
+   | Any Kezia | @Keziaandrade-dev |
+   | Maria Eduarda Melo | @mbarbosa5 |
 
    ## 💡 Sobre o projeto
 
