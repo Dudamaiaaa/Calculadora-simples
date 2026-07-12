@@ -49,3 +49,9 @@ button {
 .btn-igual {
     grid-row: span 2;
 }
+
+@media (max-width: 320px) {
+    .calculadora {
+        width: 90vw;
+    }
+}
