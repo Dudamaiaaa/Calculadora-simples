@@ -133,3 +133,4 @@ document.addEventListener("keydown", (evento) => {
   }
   atualizarDisplay();
 });
+atualizarDisplay();
