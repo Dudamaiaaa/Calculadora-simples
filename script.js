@@ -64,6 +64,12 @@ function calcular() {
     case "-":
       resultado = subtrair(anterior, atual);
       break;
+    case "*":
+      resultado = multiplicar(anterior, atual);
+      break;
+    case "/":
+      resultado = dividir(anterior, atual);
+      break;  
     default:
       return;
   }
@@ -82,4 +88,12 @@ function adicionarNumero(numero) {
   } else {
     valorAtual = valorAtual + numero;
   }
+  
+}
+function multiplicar(a, b) {
+  return a * b;
+}
+
+function dividir(a, b) {
+  return a / b;
 }
