@@ -117,3 +117,19 @@ botoes.forEach((botao) => {
     atualizarDisplay();
   });
 });
+document.addEventListener("keydown", (evento) => {
+  if (evento.key >= "0" && evento.key <= "9") {
+    adicionarNumero(evento.key);
+  } else if (evento.key === ".") {
+    adicionarNumero(".");
+  } else if (["+", "-", "*", "/"].includes(evento.key)) {
+    escolherOperador(evento.key);
+  } else if (evento.key === "Enter" || evento.key === "=") {
+    calcular();
+  } else if (evento.key === "Backspace") {
+    apagarUltimo();
+  } else if (evento.key === "Escape") {
+    limpar();
+  }
+  atualizarDisplay();
+});
