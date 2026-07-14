@@ -1,3 +1,4 @@
+HEAD
 # Calculadora Simples 🧮
 
    Projeto acadêmico desenvolvido em grupo para praticar
@@ -21,3 +22,5 @@
    ## 🚀 Como usar
 
    Abra o arquivo `index.html` em qualquer navegador.
+# Calculadora-simples
+main
