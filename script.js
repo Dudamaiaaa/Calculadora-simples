@@ -88,12 +88,15 @@ function adicionarNumero(numero) {
   } else {
     valorAtual = valorAtual + numero;
   }
-  
+
 }
 function multiplicar(a, b) {
   return a * b;
 }
 
 function dividir(a, b) {
+  if (b === 0) {
+    return "Erro: divisão por 0";
+  }
   return a / b;
 }
