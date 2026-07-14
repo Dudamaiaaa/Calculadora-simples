@@ -72,3 +72,14 @@ function calcular() {
   operadorEscolhido = null;
   valorAnterior = "";
 }
+
+function adicionarNumero(numero) {
+  // Impede múltiplos pontos decimais no mesmo número
+  if (numero === "." && valorAtual.includes(".")) return;
+
+  if (valorAtual === "0" && numero !== ".") {
+    valorAtual = numero;
+  } else {
+    valorAtual = valorAtual + numero;
+  }
+}
