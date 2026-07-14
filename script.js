@@ -100,3 +100,20 @@ function dividir(a, b) {
   }
   return a / b;
 }
+
+botoes.forEach((botao) => {
+  botao.addEventListener("click", () => {
+    if (botao.dataset.number !== undefined) {
+      adicionarNumero(botao.dataset.number);
+    } else if (botao.dataset.action === "operator") {
+      escolherOperador(botao.dataset.operator);
+    } else if (botao.dataset.action === "equals") {
+      calcular();
+    } else if (botao.dataset.action === "clear") {
+      limpar();
+    } else if (botao.dataset.action === "delete") {
+      apagarUltimo();
+    }
+    atualizarDisplay();
+  });
+});
