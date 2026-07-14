@@ -64,6 +64,12 @@ function calcular() {
     case "-":
       resultado = subtrair(anterior, atual);
       break;
+    case "*":
+      resultado = multiplicar(anterior, atual);
+      break;
+    case "/":
+      resultado = dividir(anterior, atual);
+      break;  
     default:
       return;
   }
@@ -82,4 +88,49 @@ function adicionarNumero(numero) {
   } else {
     valorAtual = valorAtual + numero;
   }
+
 }
+function multiplicar(a, b) {
+  return a * b;
+}
+
+function dividir(a, b) {
+  if (b === 0) {
+    return "Erro: divisão por 0";
+  }
+  return a / b;
+}
+
+botoes.forEach((botao) => {
+  botao.addEventListener("click", () => {
+    if (botao.dataset.number !== undefined) {
+      adicionarNumero(botao.dataset.number);
+    } else if (botao.dataset.action === "operator") {
+      escolherOperador(botao.dataset.operator);
+    } else if (botao.dataset.action === "equals") {
+      calcular();
+    } else if (botao.dataset.action === "clear") {
+      limpar();
+    } else if (botao.dataset.action === "delete") {
+      apagarUltimo();
+    }
+    atualizarDisplay();
+  });
+});
+document.addEventListener("keydown", (evento) => {
+  if (evento.key >= "0" && evento.key <= "9") {
+    adicionarNumero(evento.key);
+  } else if (evento.key === ".") {
+    adicionarNumero(".");
+  } else if (["+", "-", "*", "/"].includes(evento.key)) {
+    escolherOperador(evento.key);
+  } else if (evento.key === "Enter" || evento.key === "=") {
+    calcular();
+  } else if (evento.key === "Backspace") {
+    apagarUltimo();
+  } else if (evento.key === "Escape") {
+    limpar();
+  }
+  atualizarDisplay();
+});
+atualizarDisplay();
