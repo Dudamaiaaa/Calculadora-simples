@@ -18,3 +18,16 @@ function adicionarNumero(numero) {
     valorAtual = valorAtual + numero;
   }
 }
+
+function limpar() {
+  valorAtual = "0";
+  valorAnterior = "";
+  operadorEscolhido = null;
+}
+
+function apagarUltimo() {
+  valorAtual = valorAtual.toString().slice(0, -1);
+  if (valorAtual === "" || valorAtual === "-") {
+    valorAtual = "0";
+  }
+}
