@@ -60,3 +60,33 @@ button {
     background-color: #f5f5f5;
     color: #333;
 }
+
+.calculadora {
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  background-color: #2b2b3d;
+}
+
+#display {
+  background-color: #1a1a26;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  background-color: #3d3d54;
+  color: #ffffff;
+  transition: background-color 0.2s ease;
+}
+
+.btn-operador {
+  background-color: #ff9500;
+}
+
+.btn-igual {
+  background-color: #34c759;
+}
