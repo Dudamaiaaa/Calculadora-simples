@@ -59,6 +59,7 @@ button {
 button {
     background-color: #f5f5f5;
     color: #333;
+
 }
 
 .calculadora {
@@ -90,11 +91,11 @@ button {
 .btn-igual {
   background-color: #34c759;
 }
-button: hover {
-    background-color: #55557a;
-    cursor: pointer;
+button:hover {
+  background-color: #55557a;
+  cursor: pointer;
 }
 
-.bnt-operador: hover {
-    background-color: #ffb340;
+.btn-operador:hover {
+  background-color: #ffb340;
 }
