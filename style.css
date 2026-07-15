@@ -90,3 +90,11 @@ button {
 .btn-igual {
   background-color: #34c759;
 }
+button: hover {
+    background-color: #55557a;
+    cursor: pointer;
+}
+
+.bnt-operador: hover {
+    background-color: #ffb340;
+}
