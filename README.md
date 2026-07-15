@@ -22,8 +22,6 @@ HEAD
    ## 🚀 Como usar
 
    Abra o arquivo `index.html` em qualquer navegador.
-# Calculadora-simples
-main
 
 ## 🏷️ Versões
 
