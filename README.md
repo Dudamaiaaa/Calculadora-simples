@@ -24,3 +24,10 @@ HEAD
    Abra o arquivo `index.html` em qualquer navegador.
 # Calculadora-simples
 main
+
+## 🏷️ Versões
+
+   | Versão | Descrição |
+   |---|---|
+   | v1.0.0 | Primeira versão funcional, sem foco em estética. |
+   | v1.1.0 | Mesma lógica, com estética elaborada (cores, sombras, hover). |
